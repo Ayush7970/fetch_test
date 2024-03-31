@@ -52,8 +52,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
             @Override
-            public void onFailure(Call<List<Item>> call, Throwable t) {
-                // Handle failure
+            public void onFailure(Call<List<Item>> call, Throwable t) {      // error handling
             }
         });
     }
